@@ -1,5 +1,11 @@
 body {
+  cursor: url("tomba.ico"), default;
   background-image: url("https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png");
+}
+
+*,
+iframe {
+  cursor: url("tomba.ico"), default;
 }
 
 table {
