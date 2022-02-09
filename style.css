@@ -1,0 +1,121 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png");
+}
+
+table {
+  width: 100%;
+}
+
+.guestbook {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  background-color: black;
+  padding: 5px;
+  flex-direction: column;
+}
+
+button {
+  align-self: center;
+  width: 100%;
+  padding: 5px;
+}
+
+label,
+h3 {
+  color: white;
+  font-weight: bolder;
+}
+
+.virus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px dashed yellow;
+  margin: auto;
+  width: 600px;
+  background-color: red;
+  color: white;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.hit-counter {
+  text-align: center;
+  margin: 20px;
+}
+
+.hit-counter > span {
+  background-color: black;
+  color: green;
+  font-size: xx-large;
+  width: fit-content;
+  margin: 20px;
+}
+
+.blink {
+  text-decoration: blink;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  animation: 1.3s linear infinite condemned_blink_effect;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+h1,
+h2,
+p {
+  background-color: forestgreen;
+}
+
+h1 {
+  color: rgb(223, 130, 187);
+  font-size: 75px;
+  font-family: sans-serif;
+}
+
+marquee {
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 2s linear infinite condemned_blink_effect;
+}
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
